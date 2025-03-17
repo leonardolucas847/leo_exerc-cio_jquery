@@ -1,8 +1,8 @@
 $(document).ready (function(){
-    $('ul').on('click',  function () {
+    $('ul').on('click', 'li', function () {
         $(this).toggleClass('riscado');
     });
-    $('ul').on('dblclick', function () {
+    $('ul').on('dblclick', 'li', function () {
         $(this).remove();
     });
     $('form').on ('submit' , function (e){
