@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    display: block;
+    padding-top: 100px;
+    justify-items: center;
+}
+h1 {
+    font-size: 50px;
+    padding-bottom: 16px;
+    font-weight: bold;
+}
+form{
+    display:flex;
+    padding-bottom: 16px;
+    margin-top: 24px;
+
+}
+form input, button {
+    font-size: 26px;
+    border-radius: 4px;
+    padding: 8px;
+
+}
+input {
+    margin-right: 4px;
+}
+button {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+ul li{
+    font-size: 20px;
+    cursor: pointer;
+}
+.riscado{
+    text-decoration: line-through;
+
+}
